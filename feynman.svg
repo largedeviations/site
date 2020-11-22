@@ -11,8 +11,8 @@
 
 		.st0 {
 			stroke-dasharray: 2300;
-			stroke-dashoffset: -1000;
-			-webkit-animation: dash 2s linear worwards;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 2s linear forwards;
 			-o-animation: dash 2s linear forwards;
 			-moz-animation: dash 2s linear forwards;
 			animation: dash 2s linear forwards;
@@ -20,10 +20,10 @@
 
 		@-webkit-keyframes dash {
 			from {
-				stroke-dashoffset: -1500;
+				stroke-dashoffset: 2500;
 			}
 			to {
-				stroke-dashoffset: 600;
+				stroke-dashoffset: 4600;
 			}
 		}
 	</style>
